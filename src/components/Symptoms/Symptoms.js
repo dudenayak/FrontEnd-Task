@@ -33,16 +33,6 @@ const Symptoms = () => {
           </div>
         </div>
 
-        {/* SWIPER - SLIDE */}
-
-        {/* <Swiper>
-          <SwiperSlide>
-            {({ isActive }) => (
-              <div>Current slide is {isActive ? 'active' : 'not active'}</div>
-            )}
-          </SwiperSlide>
-        </Swiper> */}
-
         <div className='bottom-wrapper-min'>
           <Swiper
             slidesPerView={'auto'}
@@ -113,6 +103,8 @@ const Symptoms = () => {
 
         <div className='bottom-wrapper-min'>
           <Swiper
+            slidesPerView={'auto'}
+            spaceBetween={30}
             pagination={{
               clickable: true,
             }}
@@ -178,6 +170,8 @@ const Symptoms = () => {
 
         <div className='bottom-wrapper-min'>
           <Swiper
+            slidesPerView={'auto'}
+            spaceBetween={30}
             pagination={{
               clickable: true,
             }}
@@ -242,6 +236,8 @@ const Symptoms = () => {
 
         <div className='bottom-wrapper-min'>
           <Swiper
+            slidesPerView={'auto'}
+            spaceBetween={30}
             pagination={{
               clickable: true,
             }}
@@ -307,6 +303,8 @@ const Symptoms = () => {
 
         <div className='bottom-wrapper-min'>
           <Swiper
+            slidesPerView={'auto'}
+            spaceBetween={30}
             pagination={{
               clickable: true,
             }}
