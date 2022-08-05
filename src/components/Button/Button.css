@@ -1,0 +1,85 @@
+:root {
+    --primary: #fff;
+    --orange: #F5735A;
+    --purple: #373750
+
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 10 px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn--primary {
+    background-color: var(--primary);
+    color: #242424;
+    border: 1px solid var(--primary);
+  }
+  
+  .btn--outline {
+    background-color: #F5735A;
+    /* color: #fff; */
+    padding: 8px 20px;
+    /* border: 1px solid var(--primary); */
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn--medium {
+    padding: 8px 20px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    background-color: #474863;
+    border-radius: 12px;
+    color: white;
+  }
+
+  .btn-purple--medium {
+    padding: 8px 20px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    background-color: #474863;
+    border-radius: 12px;
+    color: white;
+  }
+
+  .btn-orange--medium {
+    padding: 8px 20px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    background-color: #F5735A;
+    border-radius: 12px;
+    color: white;
+  }
+  
+  .btn--large {
+    padding: 12px 26px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+  }
+  
+  .btn--large:hover,
+  .btn--medium:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+
+  .btn-purple--medium:hover{
+    transition: all 0.3s ease-out;
+    /* background: #F5735A; */
+    color: #242424;
+    transition: 250ms;
+  }
+
+  .btn-orange--medium:hover{
+    transition: all 0.3s ease-out;
+    /* background: #474863; */
+    color: #242424;
+    transition: 250ms;
+  }
+
+  
